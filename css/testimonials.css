@@ -1,0 +1,28 @@
+#testimonials {
+    padding: 100px 0;
+}
+
+.testimonials__top * {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 500;
+}
+.testimonials__top h3 {
+  max-width: 383px;
+  color: #0b132a;
+  font-size: 35px;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+
+.testimonials__top h4 {
+  max-width: 555px;
+  color: #4f5665;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+.testimonials__main img {
+    width: 100%;
+}
