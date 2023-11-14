@@ -36,3 +36,11 @@
 .dark .pricing__row__footer button {
     background-color: orange;
 }
+
+.dark #testimonials {
+    background: linear-gradient(black, rgb(32, 14, 14))
+}
+
+.dark #testimonials * {
+    color: white;
+}
