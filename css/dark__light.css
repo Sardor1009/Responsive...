@@ -1,5 +1,5 @@
 .dark header {
-    background-color: grey;
+    background-color: rgb(80, 78, 78);
 }
 .dark header * {
     color: white;
@@ -9,7 +9,30 @@
     background-color: black;
 }
 
+.dark .cards {
+    background-color: black;
+}
+
 .dark #about * {
     color: white;
 }
 
+.dark #features {
+    background-color: black;
+}
+
+.dark #features * {
+    color: white;
+}
+
+.dark #pricing {
+    background-color: black;
+}
+
+.dark #pricing * {
+    color: white;
+}
+
+.dark .pricing__row__footer button {
+    background-color: orange;
+}

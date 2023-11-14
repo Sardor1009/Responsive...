@@ -1,0 +1,107 @@
+#pricing {
+  padding: 110px 0;
+  background: linear-gradient(
+    180deg,
+    #f8f8f8 -45.04%,
+    rgba(248, 248, 248, 0) 88.56%
+  );
+}
+
+.pricing__top * {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 500;
+}
+
+.pricing__top h3 {
+  max-width: 383px;
+  color: #0b132a;
+  font-size: 35px;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+
+.pricing__top h4 {
+  max-width: 555px;
+  color: #4f5665;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+
+.pricing__row__header p {
+  color: #0b132a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.pricing__row__header img {
+  width: 100%;
+}
+
+.pricing__row__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__row__main {
+  display: flex;
+  align-items: center;
+}
+
+.pricing__row__main p {
+  color: #4f5665;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.pricing__row__parts {
+  display: grid;
+  justify-content: center;
+  padding: 20px 50px;
+  box-shadow: 0 0 7px black;
+  border-radius: 10px;
+}
+
+.pricing__row {
+  display: grid;
+  gap: 30px;
+}
+
+.premium {
+  box-shadow: 0 0 7px #f53838;
+}
+
+.premium__button button {
+  background-color: #f53838;
+  color: white;
+}
+
+.premium__button span {
+  color: white;
+}
+
+.pricing__row__footer p {
+  color: #0b132a;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 130px;
+}
+
+.pricing__row__footer button {
+  padding: 13px 63px;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  color: #f53838;
+  font-size: 16px;
+  font-weight: 700;
+  border: 2px solid #f53838;
+  margin-top: 20px;
+}
