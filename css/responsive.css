@@ -12,6 +12,7 @@
     margin-bottom: 0;
     background-color: white;
   }
+  
 }
 
 @media (min-width: 820px) {
@@ -63,4 +64,5 @@
     margin-right: 0 !important;
     text-align: left;
   }
+
 }

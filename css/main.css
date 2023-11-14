@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Rubik&display=swap");
 @import url(./about.css);
-@import url(./responsive.css);
+
 @import url(./dark__light.css); 
 @import url(./features.css);
 @import url(./pricing.css);
 @import url(./testimonials.css); 
 @import url(./help.css);
+@import url(./responsive.css);
     
 
 html {
@@ -52,7 +53,8 @@ nav {
   grid-template-columns: auto auto;
   justify-content: space-between;
   align-items: center;
-  padding-top: 45px;
+  padding-top: 20px;
+
 }
 
 .navbar-shrink {
