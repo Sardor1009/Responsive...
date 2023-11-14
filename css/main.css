@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Rubik&display=swap");
+@import url(./about.css);
+@import url(./responsive.css);
+@import url(./dark__light.css); 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: Rubik;
+}
+
+.container {
+  max-width: 1380px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-bottom: 30px;
+  opacity: 1;
+  background-color: #fff;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+}
+
+.navbar-shrink {
+  transition: 0.6s;
+  padding-bottom: 10px;
+  box-shadow: 0 1px 15px black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo p {
+  display: none;
+  color: #0b132a;
+  font-size: 20px;
+  font-weight: 500;
+}
+.logo span {
+  font-weight: 700;
+}
+
+.logo button {
+  background: transparent;
+  border: none;
+}
+
+#navbar-responsive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  font-size: 20px;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  background-color: rgb(169, 163, 163);
+  /* opacity: 0.7; */
+  backdrop-filter: blur(10px);
+  transition: 0.5s;
+}
+
+.navbar__items {
+  width: 300px;
+  display: inline-block;
+  color: white;
+  padding: 10px 14px;
+  background-color: rgb(62, 62, 62);
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.nav__items:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.navbar__items:hover {
+  color: orange;
+}
+
+#navbar-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.nav__items {
+  color: #4f5665;
+  font-size: 16px;
+}
+.nav__list {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+
+.nav__btn * {
+  color: #0b132a;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nav__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav__button-2 {
+  color: #f53855;
+  padding: 13px 45px;
+  border-radius: 50px;
+  border: 1px solid #f53855;
+}

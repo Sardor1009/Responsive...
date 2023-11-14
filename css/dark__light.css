@@ -1,0 +1,15 @@
+.dark header {
+    background-color: grey;
+}
+.dark header * {
+    color: white;
+}
+
+.dark #about {
+    background-color: black;
+}
+
+.dark #about * {
+    color: white;
+}
+
